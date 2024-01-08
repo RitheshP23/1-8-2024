@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmccrl7bfsbuprjca24g",
+  "parentID": "mig_cmccranbfsbuprjca23g",
+  "checksum": "1:9470315c901f1738ea171accb8a69f54807686aea587044c7acfb0c05237696b",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user_id",
+          "type": "string"
+        },
+        "table": "FavouriteQuotes"
+      }
+    }
+  ]
+}

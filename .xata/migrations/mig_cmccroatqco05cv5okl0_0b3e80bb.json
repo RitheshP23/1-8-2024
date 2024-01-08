@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmccroatqco05cv5okl0",
+  "parentID": "mig_cmccrl7bfsbuprjca24g",
+  "checksum": "1:0b3e80bbbcad7524322230d6408bcff7a40db5733794b258ebf83a51d0f66500",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "quote_title",
+          "type": "string"
+        },
+        "table": "FavouriteQuotes"
+      }
+    }
+  ]
+}

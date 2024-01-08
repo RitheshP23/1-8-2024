@@ -1,0 +1,16 @@
+{
+  "id": "mig_cmccqtqtqco05cv5okk0",
+  "parentID": "mig_cmccqn2tqco05cv5okj0",
+  "checksum": "1:84c6b58f9520306c419b6feca3b56e9c4dbed095f6c65484098a8b095445cd7d",
+  "operations": [
+    {
+      "addColumn": {
+        "column": {
+          "name": "user_id",
+          "type": "string"
+        },
+        "table": "UserQuotes"
+      }
+    }
+  ]
+}

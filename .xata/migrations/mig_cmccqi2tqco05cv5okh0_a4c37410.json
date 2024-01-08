@@ -1,0 +1,12 @@
+{
+  "id": "mig_cmccqi2tqco05cv5okh0",
+  "parentID": "mig_cmccqebr4o6tfr2n3opg",
+  "checksum": "1:a4c37410ca060d2ac8c289f01fed76edd6f81dc3960d2561d814677662f890d8",
+  "operations": [
+    {
+      "addTable": {
+        "table": "Favo"
+      }
+    }
+  ]
+}
