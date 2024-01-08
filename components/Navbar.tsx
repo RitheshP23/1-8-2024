@@ -4,9 +4,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const Navbar = () => {
+    const zip = 'http://localhost:3000/QuotableExtension-main.zip'
     return (
-        <nav className="fixed z-50 top-0 px-4 w-full h-14 border-b drop-shadow-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center">
-            <Link href="/" className="flex items-center gap-x-4 text-4xl font-medium text-white ">
+        <nav className="fixed z-50 top-0 px-4 w-full md:h-14  border-b drop-shadow-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex items-center">
+            <Link href="/" className="flex items-center gap-x-4 md:text-4xl text-xl font-medium text-white ">
                 {/* <Image
                     src={"/logo.jpeg"}
                     alt=".."
@@ -35,6 +36,9 @@ export const Navbar = () => {
 
                         <Link href="/topics">
                             <Button variant="secondary" size="sm">Topics</Button>
+                        </Link>
+                        <Link href="https://drive.google.com/drive/folders/1oG75eEax1UfB2bb-OWghmNB5pRdxApTB?usp=drive_link" className="md:block hidden">
+                            <Button variant="secondary" size="sm">Download Extension</Button>
                         </Link>
                     </div>
 

@@ -78,6 +78,6 @@ body,
   }
 
   body {
-    @apply bg-gradient-to-b from-white to-blue-900 text-foreground;
+    @apply bg-background text-foreground;
   }
 }
