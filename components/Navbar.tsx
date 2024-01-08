@@ -37,7 +37,7 @@ export const Navbar = () => {
                         <Link href="/topics">
                             <Button variant="secondary" size="sm">Topics</Button>
                         </Link>
-                        <Link href="https://drive.google.com/drive/folders/1oG75eEax1UfB2bb-OWghmNB5pRdxApTB?usp=drive_link" className="md:block hidden">
+                        <Link href="https://www.mediafire.com/file/tj15jswjpeylybu/Quotify-10.zip/file" className="md:block hidden">
                             <Button variant="secondary" size="sm">Download Extension</Button>
                         </Link>
                     </div>
